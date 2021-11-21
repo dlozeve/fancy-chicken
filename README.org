@@ -1,0 +1,18 @@
+* Fancy
+
+Fancy pretty-printing utilities for [[http://call-cc.org/][CHICKEN Scheme]].
+
+#+ATTR_HTML: :width 100% :style margin-left: auto; margin-right: auto;
+[[./demo.png]]
+
+** Features
+
+- [[https://en.wikipedia.org/wiki/ANSI_escape_code#CSI_(Control_Sequence_Introducer)_sequences][ANSI control codes]] for styling and cursor movement
+- Table formatting with [[https://unicode-table.com/en/blocks/box-drawing/][Unicode box drawing characters]]
+- Horizontal rules
+- Spinners
+
+** References
+
+- [[https://notes.burke.libbey.me/ansi-escape-codes/][Everything you never wanted to know about ANSI escape codes]]
+- [[https://github.com/willmcgugan/rich][Rich]] for Python, especially for their [[https://rich.readthedocs.io/en/latest/markup.html][console markup]] language

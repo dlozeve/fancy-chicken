@@ -1,0 +1,5 @@
+((author "Dimitri Lozeve")
+ (synopsis "Fancy pretty-printing utilities for CHICKEN Scheme")
+ (license "MIT")
+ (dependencies srfi-1 utf8 srfi-152)
+ (components (extension fancy)))
