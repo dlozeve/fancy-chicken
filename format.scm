@@ -86,7 +86,7 @@
   (if match
       (let-values (((control-seq new-style) (parse-tag (irregex-match-substring match 1) style)))
 	(parse-markup (irregex-replace +re-tags+ text control-seq) new-style))
-      (string-join (list text (graphics-style '())))))
+      (string-append text (graphics-style '()))))
 
 (define (remove-markup text)
   (irregex-replace/all +re-tags+ text ""))

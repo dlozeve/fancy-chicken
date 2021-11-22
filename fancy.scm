@@ -18,7 +18,12 @@
  parse-tag
  parse-markup
  remove-markup
- rule)
+ rule
+ make-table
+ table-header
+ table-row
+ table-footer
+ spinner)
 
 (import scheme
 	(chicken base)
@@ -31,5 +36,6 @@
 (include "colors.scm")
 (include "format.scm")
 (include "rule.scm")
-
+(include "table.scm")
+(include "spinner.scm")
 )
